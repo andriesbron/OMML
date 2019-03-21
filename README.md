@@ -20,9 +20,9 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:show>
+  <omml:spectacle>
     ...
-  </omml:show>
+  </omml:spectacle>
 </omml:omml>
 ```
 
