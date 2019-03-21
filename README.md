@@ -16,12 +16,14 @@ Take notice that OMML basically does not define any new thing or new definitions
 # standalone OMML
 
 Stand alone OMML is contained by the following definition:
-'''
+
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
   <omml:show>
     ...
   </omml:show>
 </omml:omml>
-'''
+```
+
 The standalone OMML container follows in that sense the philosophy of the RSS container which is given by a channel tag wrapped by an rss tag.
