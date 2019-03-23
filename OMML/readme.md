@@ -15,4 +15,4 @@ The standalone OMML container follows in that sense the philosophy of the RSS co
 
 ## omml:spectacle
 
-The spectacle tag describes a spectacle in the sense of a show. A spectacle a container to a program or a series of programs. A program or a series of programs can be anything, from a meeting in a meeting room, to a meeting in a live theatre, to videos, livestreams, audio or a piece of text. A spectacle in that sense is a description of a more broader phenomena compared to the what one would expect had it been called a show, hence, spectacle. A spectacle, as such, is a matter to be observed whether seen or heard.
+The spectacle tag describes a spectacle in the sense of a show, so a container to a program or a series of programs. A program or a series of programs can be anything, from a meeting in a meeting room, to a meeting in a live theatre, to videos, to livestreams, to radio or audio, to a piece of text. A spectacle in that sense is a description of a more broader phenomena compared to the what one would expect had it been named a "show", hence, spectacle. A spectacle, as such, is a matter to be observed whether seen or heard.
