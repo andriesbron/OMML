@@ -5,7 +5,7 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:spectacle guid="">
+  <omml:spectacle guid="" access="">
     ...
   </omml:spectacle>
 </omml:omml>
@@ -20,3 +20,7 @@ The spectacle tag describes a spectacle in the sense of a show, and is a contain
 ### omml:spectacle guid
 
 The guid tag contains a unique spectacle identifier being the url to the spectacle description, for example, a webpage where the show is introduced in human readable format which might be piggybacked with OMML.
+
+### omml:spectacle access
+
+For robots-purchase
