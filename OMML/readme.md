@@ -23,4 +23,4 @@ The guid tag contains a unique spectacle identifier being the url to the spectac
 
 ### omml:spectacle access
 
-For robots-purchase
+For robots-purchasensubscribe
