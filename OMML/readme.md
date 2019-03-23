@@ -22,8 +22,10 @@ Detailing out the spectacle container results in the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:spectacle>
-    [spectacle desciptive elements]
+  <omml:spectacle guid="">
+  
+    [spectacle descriptive elements]
+    
     <omml:program>
       ...
     </omml:program>
@@ -33,3 +35,9 @@ Detailing out the spectacle container results in the following definition:
   </omml:spectacle>
 </omml:omml>
 ```
+
+# Piggybacking OMML
+## RSS Feeds
+According definition
+## HTML websites
+both full or program
