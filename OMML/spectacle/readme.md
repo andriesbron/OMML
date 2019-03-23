@@ -7,7 +7,7 @@ Detailing out the spectacle container results in the following definition for OM
 <omml:omml>
   <omml:spectacle guid="">
   
-    <omml:author />
+    <omml:copyright />
     
     <omml:program>
       ...
@@ -19,6 +19,6 @@ Detailing out the spectacle container results in the following definition for OM
 </omml:omml>
 ```
 
-## omml:author
+## omml:copyright
 
 
