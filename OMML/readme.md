@@ -1,11 +1,9 @@
 # OMML piggybacked or standalone
 OMML is intended to be piggybacked on an existing distribution channel, so, for example to be piggybacked on an RSS feed or inside a html site or whatever else. However, if desired, OMML can be used standalone, for example, for distributing content through containers specific to OMML.
 
-Piggybacking OMML has one major advantage, it combines human readability of automated or machined distribution of media.
+Piggybacking OMML has one major advantage, it combines human readability of automated or machined distribution of media, for example, when it is piggypacked on an RSS feed or into a website.
 
-Take notice that OMML basically does not define any new thing or new definitions but merely integrates existing concepts in an intuitive way.
-
-# standalone OMML
+# Standalone OMML
 
 Stand alone OMML is contained by the following definition:
 
