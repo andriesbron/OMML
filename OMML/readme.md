@@ -1,8 +1,3 @@
-# OMML piggybacked or standalone
-OMML is intended to be piggybacked on an existing distribution channel, so, for example to be piggybacked on an RSS feed or inside a html site or whatever else. However, if desired, OMML can be used standalone, for example, for distributing content through containers specific to OMML.
-
-Piggybacking OMML has one major advantage, it combines human readability of automated or machined distribution of media, for example, when it is piggypacked on an RSS feed or into a website.
-
 # Standalone OMML
 
 Stand alone OMML is contained by the following definition:
@@ -10,10 +5,14 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:spectacle>
+  <omml:show>
     ...
-  </omml:spectacle>
+  </omml:show>
 </omml:omml>
 ```
 
 The standalone OMML container follows in that sense the philosophy of the RSS container which is given by a channel tag wrapped by an rss tag.
+
+## omml:show
+
+The show tag describes a show, as expected, a show is a program or a series of programs. A program or a series of programs can be anything, from a meeting in a live theatre to videos, livestreams, audio or a piece of text. A show in that sense is a description of a spectacle, namely, a matter to be observed whether seen or heard.
