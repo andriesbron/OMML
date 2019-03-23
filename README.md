@@ -6,5 +6,5 @@ OMML is not meant to replace current content distribution means like, for exampl
 
 OMML is a container to distribute and share all the different combinations for content publishing in order to distribute and share that content.
 
-The OMML description can be found by browsing through the directories of this repository.
+The OMML description can be found by browsing through the directories of this repository, starting <a href="https://github.com/andriesbron/OMML/tree/master/OMML">here</a>.
 
