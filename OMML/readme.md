@@ -11,7 +11,7 @@ Stand alone OMML is contained by the following definition:
 </omml:omml>
 ```
 
-The standalone OMML container follows in that sense the philosophy of the RSS container which is given by a channel tag wrapped by an rss tag.
+The standalone OMML container follows in that sense the philosophy of the RSS container which is given by a channel tag wrapped by an rss tag, however, an OMML container is allowed to contain multiple production elements.
 
 ## omml:production
 
