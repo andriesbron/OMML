@@ -5,13 +5,14 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:production copyright="" guid="" access="">
+  <omml:production copyright="" guid="" access="" target="">
     ...
   </omml:production>
 </omml:omml>
 ```
 
 The standalone OMML container follows in that sense the philosophy of the RSS container which is given by a channel tag wrapped by an rss tag, however, an OMML container is allowed to contain multiple production elements.
+It is also allowed to leave the production element empty, meaning, without containing program description.
 
 ## omml:production
 - mandatory
@@ -21,7 +22,12 @@ The production tag describes a production in the sense of a show or spectacle, a
 ### omml:production guid
 - mandatory
 
-The guid tag contains a unique production identifier being the url to the production description, for example, a webpage where the show is introduced or can be obtained. The target guid must be in human readable format which itself might be piggybacked with OMML.
+The guid tag contains a unique production identifier being the url to the production description, for example, a webpage where the show is introduced or can be obtained. The info element must be in human readable format which itself might be piggybacked with OMML.
+
+### omml:target
+- optional
+
+Contains a url through which the production is obtained. In case it comprises a podcast, this would contain the podcast url. In case access is restricted, the target element should not be used.
 
 ### omml:production copyright
 - mandatory
