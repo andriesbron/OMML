@@ -27,6 +27,6 @@ The guid tag contains a unique production identifier being the url to the produc
 
 ### omml:production access
 
-For robots-purchasensubscribe
+@todo For robots-purchasing and subscribe
 
 
