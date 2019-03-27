@@ -5,10 +5,7 @@ Detailing out the spectacle container results in the following definition for OM
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:production guid="">
-  
-    <omml:copyright />
-    
+  <omml:production>
     <omml:program>
       ...
     </omml:program>
