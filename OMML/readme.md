@@ -15,7 +15,7 @@ The standalone OMML container follows in that sense the philosophy of the RSS co
 It is also allowed to leave the production element empty, meaning, without containing program description.
 
 ## omml:production
-- mandatory
+```mandatory```
 
 The production tag describes a production in the sense of a show or spectacle, and is a container to a single program or a series of programs. A program or a series of programs can be anything, from a meeting in a meeting room, to a meeting in a live theatre, to videos, to livestreams, to radio or audio or just a piece of text. A production, in that sense, is a description of a more broader phenomena compared to the what one would expect had it been named a "show", hence, production. A production, as such, is a matter to be observed whether seen or heard, more important, a production has a copyright.
 
