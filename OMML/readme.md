@@ -30,8 +30,9 @@ The guid tag contains a unique production identifier being the url to the produc
 Provides the url through which the production is obtained. If a production has restricted access, the src element should be omitted. In case the production comprises a podcast or an rss feed, src contains the podcast url or rss feed url. The source element makes less sense if the whole production is contained by the production element, in that case should the src url point to itself and can be omitted. As such, a src either points to itself or an external url. As a result can the production container be used to distribute links to productions without the need to contain these productions.
 
 ### omml:production type
+```mandatory```
 
-mime type of production? rss/podcast?
+Mime type of production. In case of Rss or podcasts: application/rss+xml.
 
 ### omml:production copyright
 ```mandatory```
