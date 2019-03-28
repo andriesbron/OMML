@@ -56,5 +56,5 @@ The "contact" access level requires an entity to contact the production owner in
 # JSON
 
 ```
-{'omml':{'production':{'copyright':'', 'guid':'', 'access':'', 'src':''}}}
+{"omml":{"production":{"copyright":"", "guid":"", "access":"", "src":""}}}
 ```
