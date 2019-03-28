@@ -5,6 +5,7 @@ class omml
   private $guid;
   private $src;
   private $copyright;
+  private $license;
   private $access = "public";
   private $type;
   
