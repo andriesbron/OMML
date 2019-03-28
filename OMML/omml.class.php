@@ -41,7 +41,7 @@ class omml
   public static function getCopyrightOptions()
   {
     return array(
-      "name1" => ""
+      "cc40" => "https://creativecommons.org/licenses/by/4.0/"
       , "name2" => ""
       , "name3" => ""
       , "name4" => ""
