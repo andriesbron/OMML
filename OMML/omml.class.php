@@ -15,7 +15,7 @@ class omml
     
   }
   
-  public function renderJsonOmml($guid, $src, $copyright, $access)
+  public static function renderJsonOmml($guid, $src, $copyright, $access)
   {
     
   }
