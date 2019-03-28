@@ -5,7 +5,7 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:production copyright="" guid="" access="" target="">
+  <omml:production copyright="" guid="" access="" src="">
     ...
   </omml:production>
 </omml:omml>
@@ -24,10 +24,10 @@ The production tag describes a production in the sense of a show or spectacle, a
 
 The guid tag contains a unique production identifier being the url to the production description, for example, a webpage where the show is introduced or can be obtained. The info element must be in human readable format which itself might be piggybacked with OMML.
 
-### omml:target
+### omml:src
 - optional
 
-Contains a url through which the production is obtained. In case it comprises a podcast, this would contain the podcast url. In case access is restricted, the target element should not be used.
+Provides the url through which the production is obtained. In case the production comprises a podcast or an rss feed, src contains the podcast url or rss feed url. In case access to a production is restricted, the src element should be omitted.
 
 ### omml:production copyright
 - mandatory
