@@ -43,11 +43,14 @@ Currently allowed access levels are:
 - public
 - registered
 - subscription
-- other
+- contact
 
 #### Rationale
-The "registered" access level means that a viewer has to take lead through following a one time registering process upon which access to the production is gained. The one time registration can be either for "free" or a fee. If a repeating fee is required, the "subscription" has to be selected.
-The "other" access level requires an interesting party to contact the production owner to gain insights on how to access the production. The omml container in that case acts more for promotional purposes.
+The "registered" access level means that a viewer has to take lead through following a one time registering process upon which access to the production is gained. The one time registration can be either for "free" or a fee. 
+
+Access must be set to "subscription" in case a repeating fee is required.
+
+The "contact" access level requires an entity to contact the production owner in order to inform on how to gain access to the production. This can be used for promotional purposes or distributing the knowledge on the availability of a particular production.
 
 
 
