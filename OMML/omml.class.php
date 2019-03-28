@@ -25,7 +25,9 @@ class omml
   {
     
     return [ "podcast"=>application/rss+xml"
-            , "rss"=>application/rss+xml" ] 
+            , "rss"=>application/rss+xml"
+            , "xml"=>application/xml"
+            , "json"=>application/json"] 
   }
   public function setAccessLevel($level)
   {
