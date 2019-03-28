@@ -5,7 +5,7 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:production copyright="" guid="" access="" src="">
+  <omml:production copyright="" guid="" access="" src="" type="">
     ...
   </omml:production>
 </omml:omml>
@@ -28,6 +28,10 @@ The guid tag contains a unique production identifier being the url to the produc
 ```optional```
 
 Provides the url through which the production is obtained. If a production has restricted access, the src element should be omitted. In case the production comprises a podcast or an rss feed, src contains the podcast url or rss feed url. The source element makes less sense if the whole production is contained by the production element, in that case should the src url point to itself and can be omitted. As such, a src either points to itself or an external url. As a result can the production container be used to distribute links to productions without the need to contain these productions.
+
+### omml:production type
+
+mime type of production? rss/podcast?
 
 ### omml:production copyright
 ```mandatory```
