@@ -21,6 +21,12 @@ class omml
     
   }
   
+  public static function getMimeTypes()
+  {
+    
+    return [ "podcast"=>application/rss+xml"
+            , "rss"=>application/rss+xml" ] 
+  }
   public function setAccessLevel($level)
   {
     if (in_array($this->getAccessLevels(), $level) {
