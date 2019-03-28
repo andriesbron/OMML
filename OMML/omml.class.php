@@ -21,13 +21,16 @@ class omml
     
   }
   
+  /**
+   * @todo not sure if mime types will help for the type tag
+   */
   public static function getMimeTypes()
   {
-    
-    return [ "podcast"=>application/rss+xml"
-            , "rss"=>application/rss+xml"
-            , "xml"=>application/xml"
-            , "json"=>application/json"] 
+    return [ "podcast" => "application/rss+xml"
+           , "rss"     => "application/rss+xml"
+           , "xml"     => "application/xml"
+           , "json"    => "application/json"
+           , "html"    => "application/html" ] 
   }
   public function setAccessLevel($level)
   {
