@@ -6,6 +6,7 @@ class omml
   private $src;
   private $copyright;
   private $access = "public";
+  private $type;
   
   /**
    * @todo create a static function that renders statically, using function parameters. 
