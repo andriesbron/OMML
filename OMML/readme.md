@@ -5,7 +5,7 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:production copyright="" guid="" access="" src="" type="">
+  <omml:production copyright="" license="" licenseUrl="" guid="" access="" src="" type="">
     ...
   </omml:production>
 </omml:omml>
@@ -38,6 +38,12 @@ Mime type of production. In case of Rss or podcasts: application/rss+xml.
 ```mandatory```
 
 Sets the copyright for the whole production. Parts of a production, for example, a program, can have their own copyright, however, in case a program has its own copyright, it must be the same copyright or a more open copyright. A production is therefore protected by the copyright provided through the production element. 
+
+### omml:production license
+```mandatory```
+
+### omml:production licenseUrl
+```mandatory```
 
 ### omml:production access
 ```mandatory```
