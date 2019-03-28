@@ -14,3 +14,5 @@ Piggybacking OMML has one major advantage, it combines human readability of auto
 # OMML Description
 The OMML description can be found by browsing through the directories of this repository, starting <a href="https://github.com/andriesbron/OMML/tree/master/OMML">here</a>.
 
+# OMML JSON
+@todo json description.
