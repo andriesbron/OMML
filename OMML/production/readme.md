@@ -6,7 +6,7 @@ Detailing out the spectacle container results in the following definition for OM
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
   <omml:production>
-    <omml:program>
+    <omml:program copyright="">
       ...
     </omml:program>
     <omml:program>
@@ -16,6 +16,14 @@ Detailing out the spectacle container results in the following definition for OM
 </omml:omml>
 ```
 
-## omml:copyright
+## omml:program copyright
+```optional```
+
+
+# JSON
+
+```
+{"omml":{"production":{"copyright":"", "guid":"", "access":"", "src":"", "program":[{"copyright":""},{},{},...]}}}
+```
 
 
