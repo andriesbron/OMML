@@ -53,5 +53,8 @@ Access must be set to "subscription" in case a repeating fee is required.
 The "contact" access level requires an entity to contact the production owner in order to inform on how to gain access to the production. This can be used for promotional purposes or distributing the knowledge on the availability of a particular production.
 
 
+# JSON
 
-
+```
+{'omml':{'production':{'copyright':'', 'guid':'', 'access':'', 'src':''}}}
+```
