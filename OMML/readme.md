@@ -24,7 +24,7 @@ The production tag describes a production in the sense of a show or spectacle, a
 
 The guid tag contains a unique production identifier being the url to the production description, for example, a webpage where the show is introduced or can be obtained. The info element must be in human readable format which itself might be piggybacked with OMML.
 
-### omml:src
+### omml:production src
 ```optional```
 
 Provides the url through which the production is obtained. If a production has restricted access, the src element should be omitted. In case the production comprises a podcast or an rss feed, src contains the podcast url or rss feed url. The source element makes less sense if the whole production is contained by the production element, in that case should the src url point to itself and can be omitted. As such, a src either points to itself or an external url. As a result can the production container be used to distribute links to productions without the need to contain these productions.
