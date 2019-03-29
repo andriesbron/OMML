@@ -12,7 +12,7 @@ Stand alone OMML is contained by the following definition:
 ```
 
 The standalone OMML container follows in that sense the philosophy of the RSS container which is given by a channel tag wrapped by an rss tag, however, an OMML container is allowed to contain multiple production elements.
-It is also allowed to leave the production element empty, meaning, without containing program description.
+It is allowed to have an empty production element empty, meaning, without containing a program description.
 
 ## omml:production
 ```mandatory```
