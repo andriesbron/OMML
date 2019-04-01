@@ -5,7 +5,7 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:production copyright="" license="" licenseUrl="" guid="" access="" src="" pubdate="">
+  <omml:production copyright="" license="" licenseUrl="" guid="" access="" src="" pubDate="">
     ...
   </omml:production>
 </omml:omml>
@@ -65,7 +65,7 @@ Access must be set to "subscription" in case a repeating fee is required.
 
 The "contact" access level requires an entity to contact the production owner in order to inform on how to gain access to the production. This can be used for promotional purposes or distributing the knowledge on the availability of a particular production.
 
-### omml:pubdate
+### omml:pubDate
 
 Dat of publishing of the production.
 
