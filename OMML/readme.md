@@ -5,7 +5,7 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:production copyright="" license="" licenseUrl="" guid="" access="" src="" type="">
+  <omml:production copyright="" license="" licenseUrl="" guid="" access="" src="">
     ...
   </omml:production>
 </omml:omml>
@@ -27,17 +27,14 @@ The guid tag contains a unique production identifier being the url to the produc
 ### omml:production src
 ```optional```
 
-Provides the url through which the production is obtained. If a production has restricted access, the src element should be omitted. In case the production comprises a podcast or an rss feed, src contains the podcast url or rss feed url. The source element makes less sense if the whole production is contained by the production element, in that case should the src url point to itself and can be omitted. As such, a src either points to itself or an external url. As a result can the production container be used to distribute links to productions without the need to contain these productions.
+The source tag provides the url through which the production can be obtained. If a production has restricted access, the src element should be omitted. In case the production comprises a podcast or an rss feed, src contains the podcast url or rss feed url. The source element makes less sense if the whole production is contained by the production element, in that case should the src url point to itself and can be omitted. As such, a src either points to itself or an external url. As a result can the production container be used to distribute links to productions without the need to contain these productions.
 
 The production can be delivered piggybacked or stand alone. That means, the src is either:
 - Rss, Atom or whatever kind of feed
 - Website piggybacked with omml 
 - Standalone omml feed which is either an xml type of feed or a json type of feed.
 
-### omml:production type
-```optional```
-
-Mime type of production. In case of Rss or podcasts: application/rss+xml. 
+It requires that the delivering host has set a correct mime type for the src otherwise the client side has to detect what type the src possibly could be.
 
 ### omml:production copyright
 ```mandatory```
