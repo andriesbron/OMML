@@ -75,11 +75,11 @@ Dat of publishing of the production.
 
 Production rating according to Dutch rating system:
 
-Al: All ages.
-6: Potentially harmful to children under 6 years.
-9: Potentially harmful to children under 9 years.
-12: Potentially harmful to children under 12 years; broadcasting is not allowed before 8:00 pm.
-16: Potentially harmful to (and not allowed for) children under 16 years; broadcasting is not allowed before 10:00 pm.
+- Al: All ages.
+- 6: Potentially harmful to children under 6 years.
+- 9: Potentially harmful to children under 9 years.
+- 12: Potentially harmful to children under 12 years; broadcasting is not allowed before 8:00 pm.
+- 16: Potentially harmful to (and not allowed for) children under 16 years; broadcasting is not allowed before 10:00 pm.
 
 # JSON
 
