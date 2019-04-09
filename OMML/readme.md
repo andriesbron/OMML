@@ -5,7 +5,7 @@ Stand alone OMML is contained by the following definition:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <omml:omml>
-  <omml:production copyright="" license="" licenseUrl="" guid="" access="" src="" pubDate="" rating="">
+  <omml:production copyright="" license="" licenseUrl="" guid="" access="" src="" pubDate="" rating="" ratingReason="">
     ...
   </omml:production>
 </omml:omml>
@@ -68,18 +68,30 @@ The "contact" access level requires an entity to contact the production owner in
 ### omml:production pubDate
 ```mandatory```
 
-Dat of publishing of the production.
+Date on which the production will become published.
 
 ### omml:production rating
 ```mandatory```
 
-Production rating according to Dutch rating system:
+Production rating according to Dutch rating system (kijkwijzer.nl):
 
-- Al: All ages.
+- Al: All ages (in Dutch: Alle Leeftijden).
 - 6: Potentially harmful to children under 6 years.
 - 9: Potentially harmful to children under 9 years.
 - 12: Potentially harmful to children under 12 years; broadcasting is not allowed before 8:00 pm.
 - 16: Potentially harmful to (and not allowed for) children under 16 years; broadcasting is not allowed before 10:00 pm.
+
+### omml:production ratingReason
+```optional```
+
+Contains reason for rating, can be a list of comma separated classifications, e.g. ratingReason="DI" or ratingReason="VI,DA,CL"
+
+- VI: Violence
+- FE: Fear
+- SE: Sex
+- DI: Discrimination
+- DA: Drug and alcoholabuse
+- CL: Coarse Language
 
 # JSON
 
